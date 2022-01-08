@@ -1,7 +1,7 @@
 # Stock Analysis with VBA:
 ## Overview of Project:
-Conducted a stock data analys to help Steve to decide and suggest his Parents to invest in good performing stock ticker. We will be using VBA and Excel to perform this analyss
-During the analysis, one of the goal is to create a VBA script which can process the data faster and reprent the data in formatted way.
+Conducted a stock data analysis to help Steve to decide and suggest his parents to invest in good performing stock. We will be using VBA and Excel to perform this analysis
+During the analysis,we will loop through the stock data in excel sheets based on user input and find out the starting price, ending price and return. Another goal is to create a VBA script which can process the data faster and represent the data in formatted way.
 
 ### Purpose:
  Enable macro through Excel to access the power of VBA. During the VBA scripting used:
@@ -26,7 +26,7 @@ With the original code, overall execution time was ~1 sec. With refactored code 
 
  One huge upside to refactoring code is making the code to run faster.This can be very easy to work with large datasets. In this case, we did not have an 
 exceptional amount of data. But if we are working with a large datasets, then  making sure the program run as quick as possible would be extremely important.
-The disavantage is, we should understand the dependency of the modules / code very well and be very  careful while making cahnges. 
+The disadvantage is, we should understand the dependency of the modules / code very well and be very  careful while making cahnges to preserve the functionality of the code.
 
 2. How do these pros and cons apply to refactoring the original VBA script?
 
