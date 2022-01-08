@@ -23,11 +23,13 @@ With the original code, overall execution time was ~1 sec. With refactored code 
 ## Summary
 
 1. What are the advantages or disadvantages of refactoring code?
+
  One huge upside to refactoring code is making the code to run faster.This can be very easy to work with large datasets. In this case, we did not have an 
 exceptional amount of data. But if we are working with a large datasets, then  making sure the program run as quick as possible would be extremely important.
 The disavantage is, we should understand the dependency of the modules / code very well and be very  careful while making cahnges. 
 
 2. How do these pros and cons apply to refactoring the original VBA script?
+
 The  bigest benifit, refactoring code was more efficient and code run faster. It decreases the processing time.I did not see any disadvantage in refactoring code.
 
 
