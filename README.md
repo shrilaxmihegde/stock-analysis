@@ -18,16 +18,9 @@ During the analysis, one of the goal is to create a VBA script which can process
  ![All Stocks (2018)](/Resources/VBA_Challenge_2018.png)
 By comparing years 2017 and 2018, we can see, in year 2017, most of the stocks gave good return. In year 2018, only two stocks gave positive return. Based on this data we can conclude ***ENPH*** and ***RUN*** tickers performed well in both years and gave positive return.
 
-With the original code, overall execution time was ~1 sec. 
- ![All Stock(2017) without Refactor](/Resources/VBA_Challenge_2017_Runtime_before_refactor.png)
- ![All Stock(2018) without Refactor](/Resources/VBA_Challenge_2018_Runtime_before_refactor.png)
-
-With refactored code ( using 3 temp arrays and writing the result once to worksheet at the end), execution time reduced to 0.1 sec. 
- ![All Stock(2017) with Refactor](/Resources/VBA_Challenge_2017_Runtime.png)
- ![All Stock(2018) with Refactor](/Resources/VBA_Challenge_2018_Runtime.png)
-
+With the original code, overall execution time was ~1 sec. With refactored code ( using 3 temp arrays and writing the result once to worksheet at the end), execution time reduced to 0.1 sec. 
+ 
 ## Summary
-
 
 1. What are the advantages or disadvantages of refactoring code?
  One huge upside to refactoring code is making the code to run faster.This can be very easy to work with large datasets. In this case, we did not have an 
